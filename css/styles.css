@@ -213,6 +213,7 @@ body {
   clip: rect(0 0 0 0);
 }
 .backdrop {
+  z-index: 5;
   position: fixed;
   top: 0;
   left: 0;
@@ -235,13 +236,15 @@ body {
   /* height: 581px; */
   background-color: var(--body-background-color);
   position: absolute;
+  
   padding: 40px;
   top: 50%;
   left: 50%;
+ 
   transform: translate(-50%, -50%) scale(1) rotate(360deg);
-  transition-delay: 250ms;
+  transition-delay: 150ms;
   transition-property: transform;
-  transition-duration: 500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -952,16 +955,13 @@ letter-spacing: 0.06em;
 cursor: pointer;
 
 background: #2196F3;
-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.15));
+
 border-radius: 4px;
 border: transparent;
 padding: 10px 28px;
 
 color: #FFFFFF;
 
-  transition-property:  box-shadow;
-  transition-duration: 2500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foter-modal-icon{
   /* position: absolute; */
