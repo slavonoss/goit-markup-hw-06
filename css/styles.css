@@ -332,7 +332,9 @@ font-weight: normal;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
 }
 
@@ -343,6 +345,9 @@ font-weight: normal;
     height: 18;
   top: 28px;
   left: 12px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea {
