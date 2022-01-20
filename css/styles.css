@@ -691,7 +691,7 @@ font-weight: normal;
   padding: 6px 22px;
   text-align: center;
   border: 1px solid transparent;
-  transition-property: box-shadow;
+  transition-property: box-shadow, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -909,7 +909,6 @@ font-weight: normal;
 
 .footer-modal {
   margin-left: auto;
-  
 }
 
 .footer-moddal-title{
